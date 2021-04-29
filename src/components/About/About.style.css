@@ -1,0 +1,23 @@
+.About{
+    background: linear-gradient(to right, #570090, #7522b6);
+    padding: 18px;
+    color: white;
+    font-weight: 300;
+}
+.aboutheading{
+    color: white;
+    font-weight: 400;
+    width: 20%;
+    padding: 10px 50px;
+    background:#5F1498;
+}
+.aboutavatar {
+    border: 7px white double;
+    width: 50%;
+    border-radius: 50%;
+    user-select: none;
+    pointer-events: none;
+    margin: auto;
+    margin-bottom: 15px;
+    display: block;
+}

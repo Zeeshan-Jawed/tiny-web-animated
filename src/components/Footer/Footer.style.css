@@ -1,0 +1,37 @@
+.footercontainer{
+    background: linear-gradient(to right, rgb(76,6,193), rgb(205,2,189));
+	padding: 40px 0;
+	text-align: center;
+}
+.footercontainer p {
+	font-family: Roboto;
+	color: #ffff;
+	margin: 0 10px 25px
+}
+.footercontainer ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.footercontainer ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+.icon{
+    color: #ffff;
+    font-size: 30px !important;
+}
+.avatars {
+    margin: 0px auto 40px;
+}
+
+.avatar {
+    margin: 10px;
+    width: 100px;
+    border: medium solid white;
+    border-radius: 50%;
+    user-select: none;
+    pointer-events: none;
+}
+
