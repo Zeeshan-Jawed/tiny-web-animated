@@ -11,7 +11,7 @@ function App() {
   return (
      <div>
         <NavBar />
-        <Feature />
+        <Feature />   
         <Service />
         <About />
         <Review />

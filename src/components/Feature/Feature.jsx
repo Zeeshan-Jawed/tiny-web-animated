@@ -17,12 +17,12 @@ const Feature = () => {
         animationOptions: { duration: 1000, iterations: Infinity, direction: 'alternate', easing: 'steps(3, end)'},
     });
     return (
-        <div className="container">
+        <div className="contain">
             <Grid container spacing={2}>
                 <Grid item 
                 sm={12}
                 md={5}>
-                    <div className="service1Ref" >
+                    <div  >
                         <Typography variant="h1" style={{ color: "#ffffff", fontWeight: "500",textAlign:'center' }} gutterBottom>CORTEX
                         COPYWRITER</Typography>
                         <Typography variant="subtitle1" style={{ color: '#ffffff', textAlign:'center',fontSize:'20px'}}>Enhance your communications with psychology-based copywriting and UX writing</Typography>
