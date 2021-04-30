@@ -3,7 +3,9 @@
     padding: 5rem 3rem;
     
 }
-
+.leftcontainer{
+    margin-top: 130px;
+}
 .rightContainer {
     justify-self: center;
     grid-column: 3/4;
