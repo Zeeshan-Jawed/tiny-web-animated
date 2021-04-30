@@ -21,18 +21,16 @@ const Feature = () => {
             <Grid container spacing={2}>
                 <Grid item 
                 sm={12}
-                md={5}>
-                    <div  >
-                        <Typography variant="h1" style={{ color: "#ffffff", fontWeight: "500",textAlign:'center' }} gutterBottom>CORTEX
-                        COPYWRITER</Typography>
+                md={6}>
+                    <div className='leftcontainer' >
+                        <Typography variant="h2" style={{ color: "#ffffff", fontWeight: "500",textAlign:'center' }} gutterBottom>CORTEX</Typography>
                         <Typography variant="subtitle1" style={{ color: '#ffffff', textAlign:'center',fontSize:'20px'}}>Enhance your communications with psychology-based copywriting and UX writing</Typography>
                         
                     </div>
-                   
                 </Grid>
                 <Grid item 
                 sm={12}
-                md={7}>
+                md={6}>
                     <div className="rightContainer">
                     <img src={brain} alt=""  ref={brainRef} className="brain"/>
                      <img src={frontlayer} alt=""  ref={layerRef } className="frontlayer"/>

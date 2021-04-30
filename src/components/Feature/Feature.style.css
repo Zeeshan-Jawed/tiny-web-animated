@@ -3,6 +3,7 @@
     padding: 5rem 3rem;
     
 }
+
 .rightContainer {
     justify-self: center;
     grid-column: 3/4;
@@ -10,6 +11,7 @@
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
+    
 }
 .intro{
     height: 100%;
@@ -40,6 +42,7 @@
   
     .rightContainer {
         height: 70vw;
+        
     }
    
 }
