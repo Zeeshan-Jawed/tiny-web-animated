@@ -1,0 +1,31 @@
+.reviewcontainer{
+    background: linear-gradient(to right, #1c028f, #7522b6);
+    color: white;
+    padding: 20px;
+    
+}
+.title{  
+    text-align: center;
+    font-weight: 400;
+    width: 20%;
+    padding: 10px 20px;
+    background:#04028f;
+}
+.reviewbox{
+    margin-top: 40px;
+    background-color:white;
+    width: 40%;
+    color: black;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.review img{
+    background-color: #9F6BC2;
+    width: 40%;
+}
+.review{
+    display: flex;
+    justify-content: space-around;
+}

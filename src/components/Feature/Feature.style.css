@@ -1,0 +1,38 @@
+.container {
+    background: linear-gradient(to right, #9703bd, #660798);
+    padding: 5rem 3rem;
+    
+}
+.rightContainer {
+    justify-self: center;
+    grid-column: 3/4;
+    grid-row: 1/2;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+}
+.intro{
+    height: 100%;
+    grid-column: 1;
+    grid-row: 1;
+    justify-self: center;
+    align-self: center;
+    pointer-events: none;
+    
+}
+.brain{
+    height: 100%;
+    grid-column: 1;
+    grid-row: 1;
+    justify-self: center;
+    align-self: center;
+    pointer-events: none;
+}
+.frontlayer{
+    height: 100%;
+    grid-column: 1;
+    grid-row: 1;
+    justify-self: center;
+    align-self: center;
+    pointer-events: none;
+}
